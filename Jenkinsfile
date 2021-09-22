@@ -8,7 +8,7 @@ pipeline{
           }  
       stage("Run Test"){    
           steps{
-              sh "docker-compose up login-module"
+              sh "docker-compose up selenium-automation"
                }
           }  
       //stage("Bring grid down"){    
