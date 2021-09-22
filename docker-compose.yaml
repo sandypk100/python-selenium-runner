@@ -19,7 +19,7 @@ services:
     environment:
       - HUB_HOST=hub
   selenium-automation:
-    image: san-pythondocker-2:latest
+    image: sandocker100/python-selenium-test-maven:latest
     depends_on:
       - chrome
       - firefox
